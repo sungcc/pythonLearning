@@ -1,7 +1,13 @@
-a = ['a1', 'a2', 4]
-b = ['b1', 'b2', 'b3', 4]
+give_list = [4, 3, 6, 8, 12, -1, -5, -10]
+total = 0
+# i = 0
+# while i < len(give_list) and give_list[i] > 0:
+#     total += give_list[i]
+#     i += 1
+# print(total)
 
-for x in a:
-    for y in b:
-       if x == y:
-           print(y)
+for i in give_list:
+    
+   total += i
+
+print(total)
