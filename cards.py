@@ -56,8 +56,8 @@ class StandardDeck(list):
         random.shuffle(self)
         print('deck shuffled')
 
-    def deal(self):
-        print(self.pop(0))
+    def deal(self, location):
+        location.cards.append(self.pop(0))
 
 
 deck = StandardDeck()
